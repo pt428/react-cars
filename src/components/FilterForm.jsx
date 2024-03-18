@@ -76,11 +76,6 @@ function FilterForm({ data, handleFiltredDataToShow }) {
           Vyhledat podle výrobce
           </label>
         </div>
-   
-
-
-
-        
         <select
           className="form-select"
           multiple

@@ -21,7 +21,7 @@ function CarTable({ dataIn, handleEdit, handleDelete }) {
         <tbody>
           {dataIn.map((oneCar, index) => (
             <>
-              <tr key={index}>
+              <tr key={oneCar.id}>
                 <td>{oneCar.brand}</td>
                 <td>{oneCar.model}</td>
                 <td>{oneCar.reg}</td>
